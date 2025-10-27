@@ -1,0 +1,16 @@
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  width: 100vw;
+}
+
+.paint-canvas {
+  display: block;
+  left: -400px;
+  position: absolute;
+  top: -400px;
+}

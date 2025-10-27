@@ -1,0 +1,31 @@
+{
+  "name": "circle-paint",
+  "version": "1.0.0",
+  "description": "Circle Painting",
+  "main": "dist/index.js",
+  "homepage": "https://meyeroppelt.github.io/circle-paint",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meyeroppelt/circle-paint.git"
+  },
+  "keywords": [
+    "typescript",
+    "canvas",
+    "animation",
+    "interactive",
+    "art"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch --preserveWatchOutput",
+    "serve": "http-server .",
+    "dev": "npm run build && npm run serve",
+    "clean": "rm -rf dist/*"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "typescript": "^5.5.0"
+  }
+}
